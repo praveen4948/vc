@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>suraj clinic</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            /* background: url('back.jpg'); */
+            background-image: url('back.jpg');
+            background-size: cover;
+        }
+
+        #nav {
+            display: flex;
+        }
+
+        #logo img {
+            margin: 7px 10px;
+            padding: 16px 25px;
+            height: 84px;
+            width: 82px;
+        }
+
+        #nav ul {
+            display: flex;
+        }
+
+        .item {
+            padding: 49px 28px;
+            margin: 4px 1px;
+            list-style: none;
+        }
+
+        #nav li a {
+            text-decoration: none;
+            font-size: 1.3rem;
+            color: aliceblue;
+
+        }
+
+        #nav::before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+            height: 90px;
+            /* opacity: ; */
+            z-index: -1;
+            background-color: rgba(18, 117, 0, 0.973);
+        }
+        #con a{
+            border: 2px solid black;
+            padding: 4px 10px;
+            margin: 4px 10px;
+            border-radius: 4px;
+            position: absolute;
+            font-size: 1.4rem;
+            color: black;
+            top: 47px;
+            left: 800px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #con a:hover, #nav:hover{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="logo">
+            <img src="logo.jpg" alt="not found">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">Help</a></li>
+        </ul>
+        <div id="con">
+            <a href="#">Contect Us</a>
+         </div>
+    </div>
+    <section id="home">
+    </section>
+</body>
+
+</html>
